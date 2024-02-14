@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./style/Card.css";
 
-
 const Card = ({ item, index, cartCount, setCartCount }) => {
   const [status, setStatus] = useState(true);
 
@@ -26,16 +25,30 @@ const Card = ({ item, index, cartCount, setCartCount }) => {
             {/* Product name */}
             <h5 className="fw-bolder">{item.name}</h5>
             {/* Product price */}
+            {item.reviews === "True" ? (
+              <>
+                <div>
+                  <div class="fa fa-star checked"></div>
+                  <div class="fa fa-star checked"></div>
+                  <div class="fa fa-star checked"></div>
+                  <div class="fa fa-star checked"></div>
+                  <div class="fa fa-star checked"></div>
+                </div>
+              </>
+            ) : (
+              <div></div>
+            )}
             <span
               className="price text-decoration-line-through"
               class={
-                index === 1 || index === 2 || index === 4 || index === 6 ?  item.disableText : "" }
- >
+                index === 1 || index === 2 || index === 4 || index === 6
+                  ? item.disableText
+                  : ""
+              }
+            >
               {item.actualPrice}
             </span>
-            <span >{item.salePrice}</span>
-
-           
+            <span>{item.salePrice}</span>
           </div>
         </div>
         {/* Product actions */}

@@ -34,7 +34,6 @@ const App = () => {
       name: "Popular Item",
       image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
       sale: "False",
-     
       actualPrice: " $40.00 ",
       reviews: "True",
     },
