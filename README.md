@@ -21,6 +21,6 @@ Currently, two official plugins are available:
 3. Javascript => To add/remove prducts to cart.
 4. React => Used components, props, and states to add products count dinamically .
 
-<img width="1425" alt="Screenshot 2024-02-13 at 20 58 44" src="https://github.com/sidhgeetha/React-tasks-day2/assets/51734076/b66d2aeb-dade-4e57-bb2f-c5b2704a2d53">
 
- 
+<img width="1436" alt="Screenshot 2024-02-14 at 00 00 23" src="https://github.com/sidhgeetha/React-tasks-day2/assets/51734076/f12f90ca-0486-4e0c-bb03-0db5a8b5d948">
+
