@@ -78,11 +78,14 @@ const App = () => {
     <div>
       <NavBar basket={cartCount} />
       <Header />
+
+      <div >
       <ProductCards
         product={product}
         cartCount={cartCount}
         setCartCount={setCartCount}
       />
+      </div>
       <Footer />
     </div>
   );
